@@ -6,7 +6,6 @@ public enum HeaderType
     Expense,
     Income,
     Transactions,
-    Transfers,
     Categories,
     SubCategory
 }

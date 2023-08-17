@@ -2,7 +2,7 @@
 
 namespace CsvParser.Models.CoinKeeper;
 
-public class Account
+public class Account : ICoinKeeperEntity
 {
     public string Name { get; init; }
     public double CurrentAmount { get; init; }

@@ -12,7 +12,8 @@ public class PriceConverter: DefaultTypeConverter
         {
             text = text.Remove(5, 1).Insert(5, "0");
         }
-        return double.Parse(text);
+
+        return double.TryParse(text, out var result) ? result : 0;
     }
 
     public override string? ConvertToString(object value, IWriterRow row, MemberMapData memberMapData)

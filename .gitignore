@@ -6,3 +6,4 @@ riderModule.iml
 /.idea/*
 
 /CsvParser.Tests/Data/export.csv
+/CsvParser.Tests/Data/zen_2022-07-11_EE96BBA1.csv
